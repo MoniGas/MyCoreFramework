@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Common\MCF.Common.csproj" />
+    <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Data.Orm\MCF.Data.Orm.csproj" />
+    <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Lib.Data\MCF.Lib.Data.csproj" />
+    <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Lib\MCF.Lib.csproj" />
+    <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Model\MCF.Model.csproj" />
+  </ItemGroup>
+
+</Project>
