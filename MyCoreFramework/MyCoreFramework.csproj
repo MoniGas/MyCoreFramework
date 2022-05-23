@@ -16,6 +16,11 @@
     <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Lib.Data\MCF.Lib.Data.csproj" />
     <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Lib\MCF.Lib.csproj" />
     <ProjectReference Include="..\..\YJRX.FrameWork_Net6\YJRX.Model\MCF.Model.csproj" />
+    <ProjectReference Include="..\MCF.Common\MCF.Common.csproj" />
+    <ProjectReference Include="..\MCF.Data.Orm\MCF.Data.Orm.csproj" />
+    <ProjectReference Include="..\MCF.Lib.Data\MCF.Lib.Data.csproj" />
+    <ProjectReference Include="..\MCF.Lib\MCF.Lib.csproj" />
+    <ProjectReference Include="..\MCF.Model\MCF.Model.csproj" />
   </ItemGroup>
 
 </Project>
